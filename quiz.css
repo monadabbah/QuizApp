@@ -1,0 +1,66 @@
+body {
+    background-color: #22223b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 50%;
+    height: 60%;
+    background-color: #fff;
+    position: relative;
+}
+
+.content {
+    padding: 40px;
+}
+
+.question {
+    font-size: 34px;
+}
+
+.answer {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.submit {
+    background-color: rebeccapurple;
+    border: none;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.result {
+    display: none;
+    padding: 40px;
+    text-align: center;
+}
+
+.result h1 {
+    font-size: 36px;
+}
+
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}
+
+.play {
+    color: #fff;
+    background-color: rebeccapurple;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
